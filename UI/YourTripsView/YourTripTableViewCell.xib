@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Tripcell" rowHeight="82" id="KGk-i7-Jjw" customClass="YourTripTableViewCell" customModule="iuvo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="324" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="324" height="81.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13/02/2019 , 10:09 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ZI-cG-YuU">
+                        <rect key="frame" x="15" y="7" width="206" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Ave-Ye-jEc"/>
+                            <constraint firstAttribute="width" constant="206" id="vEN-VH-6s8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CA$ 300" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17s-Yl-fVL">
+                        <rect key="frame" x="251" y="7" width="67" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="67" id="YHV-aE-ke2"/>
+                            <constraint firstAttribute="height" constant="21" id="iXZ-ZC-ep6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From : London" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5KY-pD-4Hv">
+                        <rect key="frame" x="22" y="30" width="181" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="181" id="Ifh-cV-l9R"/>
+                            <constraint firstAttribute="height" constant="15" id="iiw-Es-5cV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To: Toronto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5e-mI-XsH">
+                        <rect key="frame" x="20" y="47" width="181" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="HIo-nz-6Y4"/>
+                            <constraint firstAttribute="width" constant="181" id="MOd-9o-6PU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MUN-fT-7oI">
+                        <rect key="frame" x="174" y="36" width="144" height="29"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="zyq-PL-uYC">
+                                <rect key="frame" x="119" y="3" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="c10-rE-y7i">
+                                <rect key="frame" x="8" y="3" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="aml-vx-W0q">
+                                <rect key="frame" x="36" y="3" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="JdB-c5-Xvh">
+                                <rect key="frame" x="64" y="3" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="00F-rq-P99">
+                                <rect key="frame" x="92" y="3" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="144" id="A8B-IR-PSE"/>
+                            <constraint firstAttribute="height" constant="29" id="iZg-nv-9gf"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wtl-oQ-j6Q">
+                        <rect key="frame" x="0.0" y="69" width="324" height="7"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="0.24466329225352124" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="7" id="DQd-v2-DI8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="V5e-mI-XsH" firstAttribute="top" secondItem="5KY-pD-4Hv" secondAttribute="bottom" constant="2" id="0YZ-DW-CeR"/>
+                    <constraint firstItem="5KY-pD-4Hv" firstAttribute="top" secondItem="6ZI-cG-YuU" secondAttribute="bottom" constant="2" id="0wA-wf-mM0"/>
+                    <constraint firstAttribute="trailing" secondItem="Wtl-oQ-j6Q" secondAttribute="trailing" id="2Ee-Uq-90U"/>
+                    <constraint firstItem="17s-Yl-fVL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="7QG-4z-TEW"/>
+                    <constraint firstItem="MUN-fT-7oI" firstAttribute="top" secondItem="6ZI-cG-YuU" secondAttribute="bottom" constant="8" id="Hi7-KQ-XzU"/>
+                    <constraint firstItem="6ZI-cG-YuU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="LAV-7m-0Ui"/>
+                    <constraint firstItem="6ZI-cG-YuU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="PtK-hb-i6O"/>
+                    <constraint firstItem="Wtl-oQ-j6Q" firstAttribute="top" secondItem="MUN-fT-7oI" secondAttribute="bottom" constant="4" id="Y2Q-ow-fwa"/>
+                    <constraint firstItem="5KY-pD-4Hv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="6" id="c0W-7R-A2A"/>
+                    <constraint firstAttribute="trailing" secondItem="17s-Yl-fVL" secondAttribute="trailing" constant="6" id="dAR-qF-S88"/>
+                    <constraint firstItem="Wtl-oQ-j6Q" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qjo-xL-Gje"/>
+                    <constraint firstItem="V5e-mI-XsH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="4" id="uEE-aS-C36"/>
+                    <constraint firstAttribute="trailing" secondItem="MUN-fT-7oI" secondAttribute="trailing" constant="6" id="xJF-Ar-G43"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="36" y="73"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="star" width="100" height="100"/>
+    </resources>
+</document>
