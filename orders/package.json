@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "auth": "Allen Zhang",
+  "author": "Allen Zhang",
   "scripts": {
     "start": "ts-node-dev src/index.ts",
     "test": "jest --watchAll --no-cache"
@@ -16,7 +16,6 @@
     ]
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "@cygnetops/common": "^1.0.30",
